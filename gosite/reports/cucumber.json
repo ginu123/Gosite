@@ -1,0 +1,138 @@
+[
+  {
+    "description": " As a user of the company\n   I want to login myself\n   In order to access my account functions",
+    "keyword": "Feature",
+    "name": "User Login",
+    "line": 5,
+    "id": "user-login",
+    "tags": [
+      {
+        "name": "@login",
+        "line": 3
+      },
+      {
+        "name": "@Task1",
+        "line": 3
+      }
+    ],
+    "uri": "features/login.feature",
+    "elements": [
+      {
+        "id": "user-login;display-login-form",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Display login form",
+        "tags": [
+          {
+            "name": "@login",
+            "line": 3
+          },
+          {
+            "name": "@Task1",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I am on the login page",
+            "match": {
+              "location": "step-definition/login.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24067000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the form title is \"Sign In Now\"",
+            "match": {
+              "location": "step-definition/login.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 444000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-login;login-form-contents",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Login form contents",
+        "tags": [
+          {
+            "name": "@login",
+            "line": 3
+          },
+          {
+            "name": "@Task1",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I am on the login page",
+            "match": {
+              "location": "step-definition/login.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4308000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the login form exists",
+            "match": {
+              "location": "step-definition/login.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5489000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the page contains \"Enter Your Email/Phone *\" textfield",
+            "match": {
+              "location": "step-definition/login.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3492000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the page contains \"Enter Your Password *\" textfield",
+            "match": {
+              "location": "step-definition/login.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2514000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
