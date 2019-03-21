@@ -31,6 +31,10 @@ module.exports={
             else if(title=='Enter Your Password *') {
                 return this.navigate().waitForElementPresent(element, 5000);
             }
+        },
+
+        isRedirected: function(link) {
+            return this.navigate(link);
         }
     }]
 }

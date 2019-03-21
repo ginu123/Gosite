@@ -26,3 +26,11 @@ Then(/^the page contains "(.*?)" button$/, (title)=>{
 Then(/^the page contains "(.*?)" Link$/, (title)=>{
     return log.isDisplayedWithDelay('@forgetpassword', title);
 });
+
+When(/^I click on "(.*?)" link$/, (title)=>{
+    return log.isDisplayedWithDelay('@forgetpassword', title)
+});
+
+Then(/^I am redirected to "(.*?)" page$/, (title)=>{
+    return log.isRedirected(title);
+});

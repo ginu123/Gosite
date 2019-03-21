@@ -23,14 +23,14 @@
   And the page contains "Login" button 
   And the page contains "forgot your password?" Link
 
- #Scenario: Check forgot your password link
+ Scenario: Check forgot your password link
 
-   #Given I am on the login page
-   #And the login form exists
-   #When I click on "forgot your password" link
-   #Then I am redirected to "http://lvh.me:3500/forgot" page
+   Given I am on the login page
+   And the login form exists
+   When I click on "forgot your password" link
+   Then I am redirected to "https://platform.gosite.build/forgot" page
 
- #Scenario: Check Login with Gmail
+ Scenario: Check Login with Gmail
 
    #Given I am on the login page
    #And the login form exists

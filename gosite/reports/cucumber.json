@@ -44,7 +44,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8783000000
+              "duration": 26135000000
             }
           },
           {
@@ -57,7 +57,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 575000000
+              "duration": 655000000
             }
           }
         ]
@@ -89,7 +89,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7220000000
+              "duration": 7621000000
             }
           },
           {
@@ -102,7 +102,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1831000000
+              "duration": 5913000000
             }
           },
           {
@@ -115,7 +115,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2459000000
+              "duration": 8014000000
             }
           },
           {
@@ -128,7 +128,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2259000000
+              "duration": 6247000000
             }
           },
           {
@@ -141,7 +141,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2731000000
+              "duration": 5865000000
             }
           },
           {
@@ -154,10 +154,99 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3209000000
+              "duration": 5816000000
             }
           }
         ]
+      },
+      {
+        "id": "user-login;check-forgot-your-password-link",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Check forgot your password link",
+        "tags": [
+          {
+            "name": "@login",
+            "line": 3
+          },
+          {
+            "name": "@Task1",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "I am on the login page",
+            "match": {
+              "location": "step-definition/login.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5270000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "the login form exists",
+            "match": {
+              "location": "step-definition/login.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6075000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I click on \"forgot your password\" link",
+            "match": {
+              "location": "step-definition/login.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17051000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I am redirected to \"https://platform.gosite.build/forgot\" page",
+            "match": {
+              "location": "step-definition/login.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60044000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-login;check-login-with-gmail",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Check Login with Gmail",
+        "tags": [
+          {
+            "name": "@login",
+            "line": 3
+          },
+          {
+            "name": "@Task1",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": []
       }
     ]
   }
