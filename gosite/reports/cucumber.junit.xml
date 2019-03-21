@@ -9,12 +9,12 @@
             <property name="URI" value="features/login.feature">
             </property>
         </properties>
-        <testcase name="Given I am on the login page" classname="user-login;display-login-form" time="24.067">
+        <testcase name="Given I am on the login page" classname="user-login;display-login-form" time="8.783">
         </testcase>
-        <testcase name="And the form title is &quot;Sign In Now&quot;" classname="user-login;display-login-form" time="0.444">
+        <testcase name="And the form title is &quot;Sign In Now&quot;" classname="user-login;display-login-form" time="0.575">
         </testcase>
     </testsuite>
-    <testsuite name="user-login;login-form-contents" tests="4" failures="0" skipped="0">
+    <testsuite name="user-login;login-form-contents" tests="6" failures="0" skipped="0">
         <properties>
             <property name="@login" value="true">
             </property>
@@ -23,13 +23,17 @@
             <property name="URI" value="features/login.feature">
             </property>
         </properties>
-        <testcase name="Given I am on the login page" classname="user-login;login-form-contents" time="4.308">
+        <testcase name="Given I am on the login page" classname="user-login;login-form-contents" time="7.22">
         </testcase>
-        <testcase name="And the login form exists" classname="user-login;login-form-contents" time="5.489">
+        <testcase name="And the login form exists" classname="user-login;login-form-contents" time="1.831">
         </testcase>
-        <testcase name="Then the page contains &quot;Enter Your Email/Phone *&quot; textfield" classname="user-login;login-form-contents" time="3.492">
+        <testcase name="Then the page contains &quot;Enter Your Email/Phone *&quot; textfield" classname="user-login;login-form-contents" time="2.459">
         </testcase>
-        <testcase name="Then the page contains &quot;Enter Your Password *&quot; textfield" classname="user-login;login-form-contents" time="2.514">
+        <testcase name="Then the page contains &quot;Enter Your Password *&quot; textfield" classname="user-login;login-form-contents" time="2.259">
+        </testcase>
+        <testcase name="And the page contains &quot;Login&quot; button" classname="user-login;login-form-contents" time="2.731">
+        </testcase>
+        <testcase name="And the page contains &quot;forgot your password?&quot; Link" classname="user-login;login-form-contents" time="3.209">
         </testcase>
     </testsuite>
 </testsuites>

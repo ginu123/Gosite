@@ -20,8 +20,8 @@
   And the login form exists
   Then the page contains "Enter Your Email/Phone *" textfield
   Then the page contains "Enter Your Password *" textfield
-  #And the page contains "Login" button 
-  #And the page contains "forgot your password?" Link
+  And the page contains "Login" button 
+  And the page contains "forgot your password?" Link
 
  #Scenario: Check forgot your password link
 

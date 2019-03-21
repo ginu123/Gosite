@@ -6,7 +6,8 @@ module.exports={
     elements: {
         mainHeading: '.log-info',
         loginForm: '#loginForm',
-        loginButton: '.btn primary-btn rounded-btn ripple-animate is-loader'
+        loginButton: '.form-group',
+        forgetpassword: '.forgot-pswd',
     },
 
     commands: [{
@@ -20,7 +21,7 @@ module.exports={
         },
 
         isDisplayedWithDelay: function(element){
-            return this.navigate().waitForElementVisible(element,5000)
+            return this.navigate().waitForElementPresent(element,5000)
         },
 
         isLoginFieldsDisplayed: function(element, title) {

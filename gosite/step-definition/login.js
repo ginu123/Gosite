@@ -16,9 +16,13 @@ Then(/^the login form exists$/, ()=>{
 });
 
 Then(/^the page contains "(.*?)" textfield$/, (title)=>{
-    return log.isLoginFieldsDisplayed('@loginForm', title)
+    return log.isLoginFieldsDisplayed('@loginForm', title);
 });
 
 Then(/^the page contains "(.*?)" button$/, (title)=>{
-    return log.isButtonDisplayed()
-})
+    return log.isDisplayedWithDelay('@loginButton', title);
+});
+
+Then(/^the page contains "(.*?)" Link$/, (title)=>{
+    return log.isDisplayedWithDelay('@forgetpassword', title);
+});
