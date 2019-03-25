@@ -31,7 +31,7 @@ module.exports = {
 
   test_settings: {
     default: {
-      launch_url: 'https://platform.gosite.build',
+      launch_url: 'https://platform.gosite.build/login',
       selenium_port: 4444,
       selenium_host: "127.0.0.1",
       screenshots: {

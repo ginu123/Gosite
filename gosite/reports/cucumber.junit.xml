@@ -9,9 +9,9 @@
             <property name="URI" value="features/login.feature">
             </property>
         </properties>
-        <testcase name="Given I am on the login page" classname="user-login;display-login-form" time="8.783">
+        <testcase name="Given I am on the login page" classname="user-login;display-login-form" time="14.211">
         </testcase>
-        <testcase name="And the form title is &quot;Sign In Now&quot;" classname="user-login;display-login-form" time="0.575">
+        <testcase name="And the form title is &quot;Sign In Now&quot;" classname="user-login;display-login-form" time="0.058">
         </testcase>
     </testsuite>
     <testsuite name="user-login;login-form-contents" tests="6" failures="0" skipped="0">
@@ -23,17 +23,115 @@
             <property name="URI" value="features/login.feature">
             </property>
         </properties>
-        <testcase name="Given I am on the login page" classname="user-login;login-form-contents" time="7.22">
+        <testcase name="Given I am on the login page" classname="user-login;login-form-contents" time="5.298">
         </testcase>
-        <testcase name="And the login form exists" classname="user-login;login-form-contents" time="1.831">
+        <testcase name="And the &quot;login form&quot; exists" classname="user-login;login-form-contents" time="4.762">
         </testcase>
-        <testcase name="Then the page contains &quot;Enter Your Email/Phone *&quot; textfield" classname="user-login;login-form-contents" time="2.459">
+        <testcase name="Then the page contains &quot;Enter Your Email/Phone *&quot; textfield" classname="user-login;login-form-contents" time="6.339">
         </testcase>
-        <testcase name="Then the page contains &quot;Enter Your Password *&quot; textfield" classname="user-login;login-form-contents" time="2.259">
+        <testcase name="Then the page contains &quot;Enter Your Password *&quot; textfield" classname="user-login;login-form-contents" time="6.756">
         </testcase>
-        <testcase name="And the page contains &quot;Login&quot; button" classname="user-login;login-form-contents" time="2.731">
+        <testcase name="And the page contains &quot;Login&quot; button" classname="user-login;login-form-contents" time="4.861">
         </testcase>
-        <testcase name="And the page contains &quot;forgot your password?&quot; Link" classname="user-login;login-form-contents" time="3.209">
+        <testcase name="And the page contains &quot;forgot your password?&quot; Link" classname="user-login;login-form-contents" time="4.971">
+        </testcase>
+    </testsuite>
+    <testsuite name="user-login;check-forgot-your-password-link" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="@login" value="true">
+            </property>
+            <property name="@Task1" value="true">
+            </property>
+            <property name="URI" value="features/login.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am on the login page" classname="user-login;check-forgot-your-password-link" time="4.481">
+        </testcase>
+        <testcase name="And the &quot;login form&quot; exists" classname="user-login;check-forgot-your-password-link" time="4.593">
+        </testcase>
+        <testcase name="When I click on &quot;forgot your password&quot; link" classname="user-login;check-forgot-your-password-link" time="6.331">
+        </testcase>
+        <testcase name="Then I am redirected to &quot;https://platform.gosite.build/forgot&quot; page" classname="user-login;check-forgot-your-password-link" time="7.451">
+        </testcase>
+    </testsuite>
+    <testsuite name="user-login;check-login-with-gmail" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="@login" value="true">
+            </property>
+            <property name="@Task1" value="true">
+            </property>
+            <property name="URI" value="features/login.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am on the login page" classname="user-login;check-login-with-gmail" time="4.023">
+        </testcase>
+        <testcase name="And the &quot;login form&quot; exists" classname="user-login;check-login-with-gmail" time="4.87">
+        </testcase>
+        <testcase name="When I click on &quot;Sign in with Google&quot; Google link" classname="user-login;check-login-with-gmail" time="1.083">
+        </testcase>
+        <testcase name="Then A popup launched for signing with google" classname="user-login;check-login-with-gmail" time="2.179">
+        </testcase>
+        <testcase name="Then the &quot;Google loginform&quot; exists" classname="user-login;check-login-with-gmail" time="4.63">
+        </testcase>
+    </testsuite>
+    <testsuite name="user-login;check-signup-link" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="@login" value="true">
+            </property>
+            <property name="@Task1" value="true">
+            </property>
+            <property name="URI" value="features/login.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am on the login page" classname="user-login;check-signup-link" time="4.279">
+        </testcase>
+        <testcase name="And the &quot;login form&quot; exists" classname="user-login;check-signup-link" time="5.05">
+        </testcase>
+        <testcase name="And the page contains &quot;Sign Up&quot; Link" classname="user-login;check-signup-link" time="7.151">
+        </testcase>
+        <testcase name="When I click on the &quot;Sign Up&quot; link" classname="user-login;check-signup-link" time="5.655">
+        </testcase>
+        <testcase name="Then I am redirected to &quot;https://platform.gosite.build/signup&quot; page" classname="user-login;check-signup-link" time="1.506">
+        </testcase>
+    </testsuite>
+    <testsuite name="user-login;successful-login-for-customer" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="@login" value="true">
+            </property>
+            <property name="@Task1" value="true">
+            </property>
+            <property name="URI" value="features/login.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am on the login page" classname="user-login;successful-login-for-customer" time="4.198">
+        </testcase>
+        <testcase name="And the &quot;login form&quot; exists" classname="user-login;successful-login-for-customer" time="5.899">
+        </testcase>
+        <testcase name="When I enter the correct login credentials" classname="user-login;successful-login-for-customer" time="0.234">
+        </testcase>
+        <testcase name="And I click on the active &quot;Login&quot; button" classname="user-login;successful-login-for-customer" time="0.048">
+        </testcase>
+        <testcase name="Then I am redirected to &quot;https://platform.gosite.build/1000001321/home&quot; page" classname="user-login;successful-login-for-customer" time="7.997">
+        </testcase>
+    </testsuite>
+    <testsuite name="user-login;login-without-credentials" tests="3" failures="1" skipped="0">
+        <properties>
+            <property name="@login" value="true">
+            </property>
+            <property name="@Task1" value="true">
+            </property>
+            <property name="URI" value="features/login.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am on the login page" classname="user-login;login-without-credentials" time="4.36">
+        </testcase>
+        <testcase name="And the &quot;login form&quot; exists" classname="user-login;login-without-credentials" time="7.001">
+        </testcase>
+        <testcase name="Then the &quot;Login&quot; button is disabled" classname="user-login;login-without-credentials" time="0.067">
+            <failure message="Expected element &lt;button&gt; to have attribute &quot;diynh7&quot; - attribute was not found - Expected &quot;found&quot; but got: &quot;not found&quot;">Expected element &lt;button&gt; to have attribute &quot;diynh7&quot; - attribute was not found - Expected &quot;found&quot; but got: &quot;not found&quot;
+
+    at Proxy.disableButton (/home/toobler/Desktop/gosite/page-objects/login.js:91:24)
+    at World.Then (/home/toobler/Desktop/gosite/step-definition/login.js:65:20)</failure>
         </testcase>
     </testsuite>
 </testsuites>
