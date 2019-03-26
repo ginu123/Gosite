@@ -9,9 +9,9 @@
             <property name="URI" value="features/login.feature">
             </property>
         </properties>
-        <testcase name="Given I am on the login page" classname="user-login;display-login-form" time="14.211">
+        <testcase name="Given I am on the login page" classname="user-login;display-login-form" time="12.686">
         </testcase>
-        <testcase name="And the form title is &quot;Sign In Now&quot;" classname="user-login;display-login-form" time="0.058">
+        <testcase name="And the form title is &quot;Sign In Now&quot;" classname="user-login;display-login-form" time="0.056">
         </testcase>
     </testsuite>
     <testsuite name="user-login;login-form-contents" tests="6" failures="0" skipped="0">
@@ -23,17 +23,17 @@
             <property name="URI" value="features/login.feature">
             </property>
         </properties>
-        <testcase name="Given I am on the login page" classname="user-login;login-form-contents" time="5.298">
+        <testcase name="Given I am on the login page" classname="user-login;login-form-contents" time="4.04">
         </testcase>
-        <testcase name="And the &quot;login form&quot; exists" classname="user-login;login-form-contents" time="4.762">
+        <testcase name="And the &quot;login form&quot; exists" classname="user-login;login-form-contents" time="4.789">
         </testcase>
-        <testcase name="Then the page contains &quot;Enter Your Email/Phone *&quot; textfield" classname="user-login;login-form-contents" time="6.339">
+        <testcase name="Then the page contains &quot;Enter Your Email/Phone *&quot; textfield" classname="user-login;login-form-contents" time="7.198">
         </testcase>
-        <testcase name="Then the page contains &quot;Enter Your Password *&quot; textfield" classname="user-login;login-form-contents" time="6.756">
+        <testcase name="Then the page contains &quot;Enter Your Password *&quot; textfield" classname="user-login;login-form-contents" time="4.71">
         </testcase>
-        <testcase name="And the page contains &quot;Login&quot; button" classname="user-login;login-form-contents" time="4.861">
+        <testcase name="And the page contains &quot;Login&quot; button" classname="user-login;login-form-contents" time="5.672">
         </testcase>
-        <testcase name="And the page contains &quot;forgot your password?&quot; Link" classname="user-login;login-form-contents" time="4.971">
+        <testcase name="And the page contains &quot;forgot your password?&quot; Link" classname="user-login;login-form-contents" time="5.247">
         </testcase>
     </testsuite>
     <testsuite name="user-login;check-forgot-your-password-link" tests="4" failures="0" skipped="0">
@@ -45,13 +45,13 @@
             <property name="URI" value="features/login.feature">
             </property>
         </properties>
-        <testcase name="Given I am on the login page" classname="user-login;check-forgot-your-password-link" time="4.481">
+        <testcase name="Given I am on the login page" classname="user-login;check-forgot-your-password-link" time="5.576">
         </testcase>
-        <testcase name="And the &quot;login form&quot; exists" classname="user-login;check-forgot-your-password-link" time="4.593">
+        <testcase name="And the &quot;login form&quot; exists" classname="user-login;check-forgot-your-password-link" time="5.891">
         </testcase>
-        <testcase name="When I click on &quot;forgot your password&quot; link" classname="user-login;check-forgot-your-password-link" time="6.331">
+        <testcase name="When I click on &quot;forgot your password&quot; link" classname="user-login;check-forgot-your-password-link" time="37.923">
         </testcase>
-        <testcase name="Then I am redirected to &quot;https://platform.gosite.build/forgot&quot; page" classname="user-login;check-forgot-your-password-link" time="7.451">
+        <testcase name="Then I am redirected to &quot;https://platform.gosite.build/forgot&quot; page" classname="user-login;check-forgot-your-password-link" time="33.146">
         </testcase>
     </testsuite>
     <testsuite name="user-login;check-login-with-gmail" tests="5" failures="0" skipped="0">
@@ -63,15 +63,15 @@
             <property name="URI" value="features/login.feature">
             </property>
         </properties>
-        <testcase name="Given I am on the login page" classname="user-login;check-login-with-gmail" time="4.023">
+        <testcase name="Given I am on the login page" classname="user-login;check-login-with-gmail" time="22.714">
         </testcase>
-        <testcase name="And the &quot;login form&quot; exists" classname="user-login;check-login-with-gmail" time="4.87">
+        <testcase name="And the &quot;login form&quot; exists" classname="user-login;check-login-with-gmail" time="6.95">
         </testcase>
-        <testcase name="When I click on &quot;Sign in with Google&quot; Google link" classname="user-login;check-login-with-gmail" time="1.083">
+        <testcase name="When I click on &quot;Sign in with Google&quot; Google link" classname="user-login;check-login-with-gmail" time="1.107">
         </testcase>
-        <testcase name="Then A popup launched for signing with google" classname="user-login;check-login-with-gmail" time="2.179">
+        <testcase name="Then A popup launched for signing with google" classname="user-login;check-login-with-gmail" time="2.205">
         </testcase>
-        <testcase name="Then the &quot;Google loginform&quot; exists" classname="user-login;check-login-with-gmail" time="4.63">
+        <testcase name="Then the &quot;Google loginform&quot; exists" classname="user-login;check-login-with-gmail" time="25.556">
         </testcase>
     </testsuite>
     <testsuite name="user-login;check-signup-link" tests="5" failures="0" skipped="0">
@@ -83,15 +83,15 @@
             <property name="URI" value="features/login.feature">
             </property>
         </properties>
-        <testcase name="Given I am on the login page" classname="user-login;check-signup-link" time="4.279">
+        <testcase name="Given I am on the login page" classname="user-login;check-signup-link" time="8.496">
         </testcase>
-        <testcase name="And the &quot;login form&quot; exists" classname="user-login;check-signup-link" time="5.05">
+        <testcase name="And the &quot;login form&quot; exists" classname="user-login;check-signup-link" time="29.239">
         </testcase>
-        <testcase name="And the page contains &quot;Sign Up&quot; Link" classname="user-login;check-signup-link" time="7.151">
+        <testcase name="And the page contains &quot;Sign Up&quot; Link" classname="user-login;check-signup-link" time="55.356">
         </testcase>
-        <testcase name="When I click on the &quot;Sign Up&quot; link" classname="user-login;check-signup-link" time="5.655">
+        <testcase name="When I click on the &quot;Sign Up&quot; link" classname="user-login;check-signup-link" time="35.017">
         </testcase>
-        <testcase name="Then I am redirected to &quot;https://platform.gosite.build/signup&quot; page" classname="user-login;check-signup-link" time="1.506">
+        <testcase name="Then I am redirected to &quot;https://platform.gosite.build/signup&quot; page" classname="user-login;check-signup-link" time="2.857">
         </testcase>
     </testsuite>
     <testsuite name="user-login;successful-login-for-customer" tests="5" failures="0" skipped="0">
@@ -103,18 +103,18 @@
             <property name="URI" value="features/login.feature">
             </property>
         </properties>
-        <testcase name="Given I am on the login page" classname="user-login;successful-login-for-customer" time="4.198">
+        <testcase name="Given I am on the login page" classname="user-login;successful-login-for-customer" time="38.786">
         </testcase>
-        <testcase name="And the &quot;login form&quot; exists" classname="user-login;successful-login-for-customer" time="5.899">
+        <testcase name="And the &quot;login form&quot; exists" classname="user-login;successful-login-for-customer" time="66.506">
         </testcase>
-        <testcase name="When I enter the correct login credentials" classname="user-login;successful-login-for-customer" time="0.234">
+        <testcase name="When I enter the correct login credentials" classname="user-login;successful-login-for-customer" time="0.236">
         </testcase>
-        <testcase name="And I click on the active &quot;Login&quot; button" classname="user-login;successful-login-for-customer" time="0.048">
+        <testcase name="And I click on the active &quot;Login&quot; button" classname="user-login;successful-login-for-customer" time="0.047">
         </testcase>
-        <testcase name="Then I am redirected to &quot;https://platform.gosite.build/1000001321/home&quot; page" classname="user-login;successful-login-for-customer" time="7.997">
+        <testcase name="Then I am redirected to &quot;https://platform.gosite.build/1000001321/home&quot; page" classname="user-login;successful-login-for-customer" time="36.461">
         </testcase>
     </testsuite>
-    <testsuite name="user-login;login-without-credentials" tests="3" failures="1" skipped="0">
+    <testsuite name="user-login;login-without-credentials" tests="3" failures="0" skipped="0">
         <properties>
             <property name="@login" value="true">
             </property>
@@ -123,15 +123,11 @@
             <property name="URI" value="features/login.feature">
             </property>
         </properties>
-        <testcase name="Given I am on the login page" classname="user-login;login-without-credentials" time="4.36">
+        <testcase name="Given I am on the login page" classname="user-login;login-without-credentials" time="31.673">
         </testcase>
-        <testcase name="And the &quot;login form&quot; exists" classname="user-login;login-without-credentials" time="7.001">
+        <testcase name="And the &quot;login form&quot; exists" classname="user-login;login-without-credentials" time="43.73">
         </testcase>
-        <testcase name="Then the &quot;Login&quot; button is disabled" classname="user-login;login-without-credentials" time="0.067">
-            <failure message="Expected element &lt;button&gt; to have attribute &quot;diynh7&quot; - attribute was not found - Expected &quot;found&quot; but got: &quot;not found&quot;">Expected element &lt;button&gt; to have attribute &quot;diynh7&quot; - attribute was not found - Expected &quot;found&quot; but got: &quot;not found&quot;
-
-    at Proxy.disableButton (/home/toobler/Desktop/gosite/page-objects/login.js:91:24)
-    at World.Then (/home/toobler/Desktop/gosite/step-definition/login.js:65:20)</failure>
+        <testcase name="Then the &quot;Login&quot; button is disabled" classname="user-login;login-without-credentials" time="0.043">
         </testcase>
     </testsuite>
 </testsuites>
